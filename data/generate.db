@@ -1,0 +1,3 @@
+dart run conduit db generate
+dart run conduit db validate
+dart run conduit db upgrade
