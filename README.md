@@ -3,6 +3,8 @@
 
 Server application for processing requests from clients.
 It is implemented in the Dart language using the Conduit framework.
+
+[Link to client app repository](https://github.com/efimfit/post_viewer-client-app-)
 ___
 ## Application structure
 
@@ -20,9 +22,6 @@ Data service is responsible for operations with user posts (creating, deleting, 
 Both services use their own database.
 
 Both services are not available from outside, and Nginx server proxies requests to them, listening on port 80.
-
-
-
 
 ___
 ## Useful links
